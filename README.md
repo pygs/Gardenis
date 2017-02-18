@@ -7,6 +7,7 @@
 ##### 0.1
 - Game created
 - Episode 1 created
+
 ##### 0.2
 - Logo created
 - New menu
