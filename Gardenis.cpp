@@ -311,11 +311,11 @@ int main()
         {
             goto Profesja;
         }
-        }
         cout << "!!!----------Rozdzial 4: Najazd----------!!!" << endl;
         cout << "Dalsza czesc pozniej :f" << endl;
         getch();
         return 0;
+    }
 
     if (Menu==2)
     {
