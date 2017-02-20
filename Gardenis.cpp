@@ -18,6 +18,7 @@ int main()
     _sleep(250);
     int Menu;
     cout << "\t \t1. Nowa gra" << endl;
+    _sleep(250);
     cout << "\t \t2. Wyjdz" << endl;
     cin >> Menu;
     if (Menu==1)
