@@ -38,6 +38,7 @@ int main()
         getch();
         cout << "???: Lepiej sie pospiesz. Przy okazji, nazywam sie Artey. A Ty?" << endl;
         char name[50];
+        cout << "# Wpisz swoje imie: ";
         cin >> name;
         cout << "Artey: Ok, " << name << ", milo mi Cie poznac." << endl;
         getch();
