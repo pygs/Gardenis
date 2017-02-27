@@ -260,7 +260,7 @@ int main()
             {
                 cout << name << ": Tak. To moja ostateczna decyzja." << endl;
                 getch();
-                cout << "Grindor: Nie spodziewalem sie tego. Ale to twoj wybor. Witamy na pokladzie " << name << "!" << endl;
+                cout << "Grindor: Nie spodziewalem sie tego. Dwoch skrytobojcow napewno nam sie przyda. Witamy na pokladzie " << name << "!" << endl;
                 getch();
                 cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
                 getch();
