@@ -25,7 +25,7 @@ int main()
     {
         system("cls");
         cout << "!!!----------Prolog----------!!!" << endl;
-        getch();
+        _sleep(2000);
         cout << "???: Ej, kolego, zyjesz?" << endl;
         getch();
         cout << "*Obudziles sie*" << endl;
@@ -54,8 +54,6 @@ int main()
         int opcjePodrozy;
         cout << "# Po jakims czasie zostajecie otoczeni przez goblinich rycerzy." << endl;
         getch();
-        cout << "Artey: " << name << "! Uciekajmy, szybko!" << endl;
-        getch();
         cout << "# I tutaj stajesz przed wyborem." << endl;
         getch();
         cout << "# Chcesz uciec wraz z Arteyem?" << endl;
@@ -73,23 +71,24 @@ int main()
         if (opcjePodrozy==1)
             {
             cout << "!!!----------Rozdzial 1: Ucieczka----------!!!" << endl;
+            _sleep(2000);
+            cout << "# Bierzesz Arteya za reke." << endl;
             getch();
-            cout << "# Bierzesz Arteya za reke i szybko uciekacie." << endl;
+            cout << "# On postanawia sie nie ruszac." << endl;
             getch();
-            cout << name << ": Dawaj!" << endl;
+            cout << name << ": Co Ty robisz?" << endl;
             getch();
-            cout << "# Po godzinie biegniecia docieracie do zamku gdzie mieszka Artey." << endl;
+            cout << "Artey: Jestem wybitnym skrytobojcom wynajetym przez krola." << endl;
             getch();
-            cout << "# Okazuje sie, ze jest wynajetym przez krola skrytobojca." << endl;
+            cout << "Artey: I nie zamierzam wycofywac sie jak Ty." << endl;
             getch();
-            cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
+            cout << "# Po tym wszystkim co powiedzial postanawiasz mu pomoc." << endl;
             getch();
-            system("cls");
             }
         else if (opcjePodrozy==2)
             {
             cout << "!!!----------Rozdzial 1: Walka----------!!!" << endl;
-            getch();
+            _sleep(2000);
             cout << "# Postanawiasz pozbyc sie goblinow." << endl;
             getch();
             cout << name << ": Artey, uciekaj! Dam sobie rade z nimi." << endl;
@@ -100,29 +99,29 @@ int main()
             getch();
             cout << "# Artey postanawia Ci pomoc." << endl;
             getch();
-            cout << "# Wyciaga on sztylet podarowany od krola." << endl;
-            getch();
-            cout << "# Wyciagasz swoj miecz." << endl;
-            getch();
-            cout << "# Jeden goblin zaatakowal Cie z ukrycia przez co zostales ranny." << endl;
-            getch();
-            cout << "# Gdy bylo po wszystkim, Artey wzial Cie do medyka." << endl;
-            getch();
-            cout << "# Szybko Cie opatrzyl i wrociles do zdrowia." << endl;
-            getch();
-            cout << "# Artey opowiada Ci o tym kim jest i dla kogo sluzy." << endl;
-            getch();
-            cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
-            getch();
-            system("cls");
             }
         else
             {
             cout << "Nie ma takiej opcji!" << endl;
             goto Podroz;
             }
-        cout << "!!!----------Rozdzial 2: Spotkanie----------!!!" << endl;
+        cout << "# Wyciaga on sztylet podarowany od krola." << endl;
         getch();
+        cout << "# Wyciagasz swoj miecz." << endl;
+        getch();
+        cout << "# Jeden goblin zaatakowal Cie z ukrycia przez co zostales ranny." << endl;
+        getch();
+        cout << "# Gdy bylo po wszystkim, Artey wzial Cie do medyka." << endl;
+        getch();
+        cout << "# Szybko Cie opatrzyl i wrociles do zdrowia." << endl;
+        getch();
+        cout << "# Artey opowiada Ci o tym kim jest i dla kogo sluzy." << endl;
+        getch();
+        cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
+        getch();
+        system("cls");
+        cout << "!!!----------Rozdzial 2: Spotkanie----------!!!" << endl;
+        _sleep(2000);
         cout << "Artey: To co, moze poznam Cie z naszym krolem?" << endl;
         getch();
         cout << name << ": Chetnie." << endl;
@@ -143,7 +142,8 @@ int main()
         getch();
         cout << "Grindor: Slugo! Przynies nam uczte." << endl;
         getch();
-        cout << "Grindor: Przy okazji, zawolaj naszego blazna Felosa, aby podarowal nam rozrywki." << endl;
+        cout << "Grindor: Przy okazji, zawolaj naszego blazna Felosa, aby podarowal nam" << endl;
+        cout << "rozrywki." << endl;
         getch();
         cout << "# Po obfitej uczcie postanawiasz sie przespac." << endl;
         getch();
@@ -156,7 +156,7 @@ int main()
         int Profesja;
         int takNie;
         r3:
-        getch();
+        _sleep(2000);
         cout << "*Nastepny dzien*" << endl;
         getch();
         cout << "# Postanawiasz sie przejsc po zamku." << endl;
@@ -179,13 +179,17 @@ int main()
         getch();
         cout << "Artey: Och, " << name << " poznaj Psycha, naczelna prawa reka krola Grindora." << endl;
         getch();
+        cout << "Artey: Jest tez dowodca wszystkich rycerzy w zamku." << endl;
+        getch();
         cout << name << ": Milo mi pana poznac." << endl;
         getch();
-        cout << "Psycho: Mi rowniez. Wiec, " << name << ", dzisiaj jest uroczystosc mianowania Cie na      rycerza, prawda?" << endl;
+        cout << "Psycho: Mi rowniez. Wiec, " << name << ", dzisiaj jest uroczystosc mianowania Cie na" << endl;
+        cout << "rycerza, prawda?" << endl;
         getch();
         cout << name << ": Oj tam od razu uroczystosc." << endl;
         getch();
-        cout << "Artey: W Gardenis to jest wielki zaszczyt by byc mianowanym przez samego krola  Grindora." << endl;
+        cout << "Artey: W Gardenis to jest wielki zaszczyt by byc mianowanym przez samego krola" << endl;
+        cout << "Grindora." << endl;
         getch();
         cout << "Psycho: Taka prawda." << endl;
         getch();
@@ -228,7 +232,8 @@ int main()
             if (takNie==1)
             {   cout << name << ": Tak. To moja ostateczna dezycja." << endl;
                 getch();
-                cout << "Grindor: Doskonaly wybor. Czlowiek ktory potrafi poradzic sobie sam z goblinami na pewno nam sie przyda!" << endl;
+                cout << "Grindor: Doskonaly wybor. Czlowiek ktory potrafi poradzic sobie sam z goblinami" << endl;
+                cout << "na pewno nam sie przyda!" << endl;
                 getch();
                 cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
                 getch();
@@ -260,7 +265,8 @@ int main()
             {
                 cout << name << ": Tak. To moja ostateczna decyzja." << endl;
                 getch();
-                cout << "Grindor: Nie spodziewalem sie tego. Dwoch skrytobojcow napewno nam sie przyda. Witamy na pokladzie " << name << "!" << endl;
+                cout << "Grindor: Nie spodziewalem sie tego. Dwoch skrytobojcow napewno nam sie przyda." << endl;
+                cout << "Witamy na pokladzie " << name << "!" << endl;
                 getch();
                 cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
                 getch();
@@ -292,7 +298,8 @@ int main()
             {
                 cout << name << ": Tak. To moja ostateczna decyzja." << endl;
                 getch();
-                cout << "Grindor: Tego sie nie spodziewalem po takim wojowniku. Moze jednak masz         zdolnosci lucznicze. W takim razie, witamy na pokladzie " << name << "!" << endl;
+                cout << "Grindor: Tego sie nie spodziewalem po takim wojowniku. Moze jednak masz" << endl;
+                cout << "zdolnosci lucznicze. W takim razie, witamy na pokladzie " << name << "!" << endl;
                 getch();
                 cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
                 getch();
@@ -311,13 +318,155 @@ int main()
         {
             goto Profesja;
         }
-        cout << "!!!----------Rozdzial 4: Najazd----------!!!" << endl;
+        if (Profesja==1)
+        {
+            cout << "!!!----------Rozdzial 4: Najazd----------!!!" << endl;
+            _sleep(2000);
+            cout << "# Po wybraniu Ciebie na wojownika wszyscy zaczeli halasowac z radosci." << endl;
+            getch();
+            cout << "# Psycho najbardziej, ze wzgledu na kolejnego dobrego wojownika." << endl;
+            getch();
+            cout << "# Po calej biesiadzie postanawiasz odpoczac i pogadac z Psychem." << endl;
+            getch();
+            cout << name << ": Wiec Psycho, widzialem, ze najbardziej sie cieszyles ze wszystkich." << endl;
+            getch();
+            cout << name << ": Czemu?" << endl;
+            getch();
+            cout << "Psycho: Szczerze? Po tym wszystkim co zrobiles dla Arteya, widze w Ciebie" << endl;
+            cout << "dobrego wojown-" << endl;
+            _sleep(5000);
+            cout << "*bum* *trask*" << endl;
+            getch();
+            cout << name << ": Co to bylo?" << endl;
+            getch();
+            cout << "Psycho: Lepiej chodzmy do krola i wszystko nam powie." << endl;
+            getch();
+            cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
+            getch();
+            system("cls");
+        }
+        else if (Profesja==2)
+        {
+            cout << "!!!----------Rozdzial 4: Najazd----------!!!" << endl;
+            _sleep(2000);
+            cout << "# Po wybraniu Ciebie na skrytobojce wszyscy zaczeli halasowac z radosci." << endl;
+            getch();
+            cout << "# Artey najbardziej, ze wzgledu ze bedzie mial wspolnika." << endl;
+            getch();
+            cout << "# Po calej biesiadzie postanawiasz odpoczac i pogadac z Arteyem." << endl;
+            getch();
+            cout << name << ": Wiec Artey, widzialem, ze najbardziej sie cieszyles ze wszystkich." << endl;
+            cout << "Czemu?" << endl;
+            getch();
+            cout << "Artey: Szczerze? Po paru latach w koncu mam jakiegos wspolnika." << endl;
+            getch();
+            cout << "Artey: Wszyscy ktorzy dolaczali do Gardenis szli na rycerza albo na lucznika." << endl;
+            getch();
+            cout << name << ": Ohh.. Przykro mi to slyszec." << endl;
+            getch();
+            cout << "Artey: Nic sie nie sta-" << endl;
+            _sleep(3000);
+            cout << "*bum* *trask*" << endl;
+            cout << name << ": Co to bylo?" << endl;
+            getch();
+            cout << "Artey: Nie wiem. Lepiej pojdzmy do krola i sie spytajmy." << endl;
+            getch();
+            cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
+            getch();
+            system ("cls");
+        }
+        else if (Profesja==3)
+        {
+            cout << "!!!----------Rozdzial 4: Najazd----------!!!" << endl;
+            _sleep(2000);
+            cout << "# Po wybraniu Ciebie na lucznika wszyscy zaczeli halasowac z radosci." << endl;
+            getch();
+            cout << "# Po calej biesiadzie postanawiasz odpoczac w swoim pokoju." << endl;
+            getch();
+            cout << "# Lezac, slyszysz wybuchy i krzyki wiesniakow." << endl;
+            getch();
+            cout << "# Postanawiasz udac sie do krola i sie spytac o co chodzi." << endl;
+            getch();
+            cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
+            getch();
+            system ("cls");
+        }
+        cout << "# Wszyscy zgromadzili sie w komnacie krola." << endl;
+        getch();
+        cout << "Grindor: Drodzy podwladni. Nasz zamek zostal zaatakowany przez armie goblinow." << endl;
+        getch();
+        cout << "Grindor: Prosze was, abyscie pomogli \"Gardenis\" i wszystkim tu zgromadzonym." << endl;
+        getch();
+        cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
+        getch();
+        system("cls");
+        if (Profesja==1)
+        {
+            cout << "# Razem z Psychem i wszystkimi rycerzami postanawiacie isc szybko do" << endl;
+            cout << "koszarow i sie uzbroic." << endl;
+            getch();
+            cout << "Psycho: Dobra chlopaki, sprawa wyglada tak, to juz jest trzeci najazd na" << endl;
+            cout << "\"Gardenis\"." << endl;
+            getch();
+            cout << "*Trzeci najazd? O panie...*" << endl;
+            getch();
+            cout << name << ": Czesto gobliny najedzaja na zamek?" << endl;
+            getch();
+            cout << "Psycho: Co jakis czas." << endl;
+            getch();
+            cout << "Psycho: Dobra, szybko wychodzmy i sie przygotujmy do obrony." << endl;
+            getch();
+            cout << "# I tak oto zaczyna sie pierwsza wojna w twoim zyciu." << endl;
+            getch();
+            cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
+            getch();
+            system("cls");
+        }
+        else if (Profesja==2)
+        {
+            cout << "# Razem z Arteyem biegniecie do swojego pokoju i sie uzbrajacie." << endl;
+            getch();
+            cout << name << ": Gobliny czesto atakuja ten zamek?" << endl;
+            getch();
+            cout << "Artey: Raz na jakis czas. Strat nie ma wiele. Paru rycerzy tylko." << endl;
+            getch();
+            cout << name << "Hmm. No dobra, a co jest nasza taktyka? Co musimy robic?" << endl;
+            getch();
+            cout << "Artey: Jak to co? Atakowac od tylu, najlepiej dowodce armii." << endl;
+            getch();
+            cout << "# Po objasnieniu taktyki idziecie razem tylnym wyjsciem zamku i skradacie sie" << endl;
+            cout << "w lasku aby zaatakowac od tylu." << endl;
+            getch();
+            cout << "# I tak oto zaczyna sie pierwsza wojna w twoim zyciu." << endl;
+            getch();
+            cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
+            getch();
+            system("cls");
+        }
+        else if (Profesja==3)
+        {
+            cout << "# Razem z innymi lucznikami biegniecie do wiez obronnych." << endl;
+            getch();
+            cout << name << "Wiec... Jaka jest taktyka?" << endl;
+            getch();
+            cout << "Lucznik: Po prostu ostrzeliwujemy goblinich lucznikow." << endl;
+            getch();
+            cout << "*Wydaje sie to latwe, ale ciekawe jak z moim celem.*" << endl;
+            getch();
+            cout << "# I tak oto zaczyna sie pierwsza wojna w twoim zyciu." << endl;
+            getch();
+            cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
+            getch();
+            system("cls");
+        }
+        cout << "!!!----------Rozdzial 5: Wojna----------!!!" << endl;
+        _sleep(2000);
         cout << "Dalsza czesc pozniej :f" << endl;
         getch();
         return 0;
     }
 
-    if (Menu==2)
+    else if (Menu==2)
     {
         return 0;
     }
