@@ -23,7 +23,7 @@ http://www.mediafire.com/file/mdr11u6cpcrqywq/Gardenis.exe
 - Fixed some problems
 
 ##### 0.3
-- "getch" changed to "sleep" after chapters
+- "getch" changed to "sleep" after episodes
 - Changed the story of episode 1: escape
 - Episode 4 added
 
