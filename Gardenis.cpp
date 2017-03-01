@@ -330,7 +330,7 @@ int main()
             getch();
             cout << name << ": Wiec Psycho, widzialem, ze najbardziej sie cieszyles ze wszystkich." << endl;
             getch();
-            cout << name << ": Czemu?" << endl;
+            cout << "Czemu?" << endl;
             getch();
             cout << "Psycho: Szczerze? Po tym wszystkim co zrobiles dla Arteya, widze w Ciebie" << endl;
             cout << "dobrego wojown-" << endl;
