@@ -4,7 +4,7 @@
 Gardenis is a text-based adventure game placed in medieval ages with some elements of fantasy. Names of heroes are my friends nicks.
 
 ### Download link
-http://www.mediafire.com/file/mdr11u6cpcrqywq/Gardenis.exe
+v0.3 http://www.mediafire.com/file/mdr11u6cpcrqywq/Gardenis.exe
 
 #### TODO
 - More episodes
