@@ -318,12 +318,12 @@ int main()
         {
             goto Profesja;
         }
+        cout << "!!!----------Rozdzial 4: Najazd----------!!!" << endl;
+        _sleep(2000);
+        cout << "# Po wybraniu Ciebie na wojownika wszyscy zaczeli halasowac z radosci." << endl;
+        getch();
         if (Profesja==1)
         {
-            cout << "!!!----------Rozdzial 4: Najazd----------!!!" << endl;
-            _sleep(2000);
-            cout << "# Po wybraniu Ciebie na wojownika wszyscy zaczeli halasowac z radosci." << endl;
-            getch();
             cout << "# Psycho najbardziej, ze wzgledu na kolejnego dobrego wojownika." << endl;
             getch();
             cout << "# Po calej biesiadzie postanawiasz odpoczac i pogadac z Psychem." << endl;
@@ -347,10 +347,6 @@ int main()
         }
         else if (Profesja==2)
         {
-            cout << "!!!----------Rozdzial 4: Najazd----------!!!" << endl;
-            _sleep(2000);
-            cout << "# Po wybraniu Ciebie na skrytobojce wszyscy zaczeli halasowac z radosci." << endl;
-            getch();
             cout << "# Artey najbardziej, ze wzgledu ze bedzie mial wspolnika." << endl;
             getch();
             cout << "# Po calej biesiadzie postanawiasz odpoczac i pogadac z Arteyem." << endl;
@@ -377,10 +373,6 @@ int main()
         }
         else if (Profesja==3)
         {
-            cout << "!!!----------Rozdzial 4: Najazd----------!!!" << endl;
-            _sleep(2000);
-            cout << "# Po wybraniu Ciebie na lucznika wszyscy zaczeli halasowac z radosci." << endl;
-            getch();
             cout << "# Po calej biesiadzie postanawiasz odpoczac w swoim pokoju." << endl;
             getch();
             cout << "# Lezac, slyszysz wybuchy i krzyki wiesniakow." << endl;
@@ -416,11 +408,6 @@ int main()
             getch();
             cout << "Psycho: Dobra, szybko wychodzmy i sie przygotujmy do obrony." << endl;
             getch();
-            cout << "# I tak oto zaczyna sie pierwsza wojna w twoim zyciu." << endl;
-            getch();
-            cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
-            getch();
-            system("cls");
         }
         else if (Profesja==2)
         {
@@ -437,11 +424,6 @@ int main()
             cout << "# Po objasnieniu taktyki idziecie razem tylnym wyjsciem zamku i skradacie sie" << endl;
             cout << "w lasku aby zaatakowac od tylu." << endl;
             getch();
-            cout << "# I tak oto zaczyna sie pierwsza wojna w twoim zyciu." << endl;
-            getch();
-            cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
-            getch();
-            system("cls");
         }
         else if (Profesja==3)
         {
@@ -453,15 +435,99 @@ int main()
             getch();
             cout << "*Wydaje sie to latwe, ale ciekawe jak z moim celem.*" << endl;
             getch();
-            cout << "# I tak oto zaczyna sie pierwsza wojna w twoim zyciu." << endl;
+        }
+        cout << "# I tak oto zaczyna sie pierwsza wojna w twoim zyciu." << endl;
+        getch();
+        cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
+        getch();
+        system("cls");
+        cout << "!!!----------Rozdzial 5: Wojna----------!!!" << endl;
+        _sleep(2000);
+        if (Profesja==1)
+        {
+            cout << "# Po wyjsciu z koszarow zauwazyles cala armie goblinow." << endl;
+            getch();
+            cout << "# Armia liczyla ponad 5000 potworow." << endl;
+            getch();
+            cout << "# Czekajac na pierwszy krok przeciwnikow stales nieruchomy jak skala." << endl;
+            getch();
+            cout << "Psycho: Spokojnie wszyscy. Musimy czekac tylko na ich ruch." << endl;
+            getch();
+            cout << "*Taa..*" << endl;
+            getch();
+            cout << name << ": Tak z ciekawosci, gdzie jest Artey?" << endl;
+            getch();
+            cout << "Psycho: Pewnie jak zawsze ukrywa sie w lasku." << endl;
+            getch();
+            cout << name << ": Po co?" << endl;
+            getch();
+            cout << "Psycho: Tak samo jak my, czeka na ruch przeciwnika, a potem zaatakuje" << endl;
+            cout << "glownego dowodce armii." << endl;
+            getch();
+            cout << name << ": I co to da?" << endl;
+            getch();
+            cout << "Psycho: Wtedy gobliny nie wiedza co robic bez rozkazow." << endl;
+            getch();
+            cout << name << ": Brzmi logicznie." << endl;
             getch();
             cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
             getch();
             system("cls");
         }
-        cout << "!!!----------Rozdzial 5: Wojna----------!!!" << endl;
-        _sleep(2000);
-        cout << "Dalsza czesc pozniej :f" << endl;
+        else if (Profesja==2)
+        {
+            cout << name << ": No to co robimy?" << endl;
+            getch();
+            cout << "Artey: Czekamy az gobliny zaatakuja piewsze." << endl;
+            getch();
+            cout << name << ": Czemu nie zaatakujemy teraz?" << endl;
+            getch();
+            cout << "Artey: Za duzo goblinow przy dowodcy. Musimy zaczekac." << endl;
+            getch();
+            cout << "*Ehh...*" << endl;
+            getch();
+            cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
+            getch();
+            system("cls");
+        }
+        else if (Profesja==3)
+        {
+            cout << name << ": Na co czekamy?" << endl;
+            getch();
+            cout << "Lucznik: Na pierwszy ruch goblinow." << endl;
+            getch();
+            cout << name << ": Nie mozemy sami zaatakowac pierwsi i miec to z glowy?" << endl;
+            getch();
+            cout << "Lucznik: Nie. Rycerze musza byc gotowi do obrony. Jezeli zaatakujemy pierwsi" << endl;
+            cout << "to nie damy rady obronic zamku." << endl;
+            getch();
+            cout << name << ": Ahh.." << endl;
+            getch();
+            cout << "Lucznik: Tak poza tym, nazywam sie Onid." << endl;
+            getch();
+            cout << name << ": Milo mi. Nazywam sie " << name << "." << endl;
+            getch();
+            cout << "Onid: No dobra, lepiej sie tez przygotujmy po przeczuwam, ze gobliny zaczna" << endl;
+            cout << "atakowac." << endl;
+            getch();
+            cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
+            getch();
+            system("cls");
+        }
+        cout << "# No i w koncu gobliny zrobily pierwszy krok." << endl;
+        getch();
+        cout << "# Jezdzcy na rumakach popedzali jak piorun." << endl;
+        getch();
+        cout << "# Lucznicy ostrzeliwali wieze obronne." << endl;
+        getch();
+        if (Profesja==1)
+        {
+            cout << "Psycho: Rycerze! Do obrony!" << endl;
+            getch();
+            cout << "# Najtwardsi stawili sie na frontowej linii." << endl;
+            getch();
+            cout <<
+        }
         getch();
         return 0;
     }
