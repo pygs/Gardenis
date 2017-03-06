@@ -529,6 +529,27 @@ int main()
             cout <<
         }
         getch();
+        system("cls");
+        cout << "Credits" << endl;
+        _sleep(1500);
+        cout << "Tworca: Jakub \"pygs\" Wasiniewski" << endl;
+        _sleep(1500);
+        cout << "Wspoltworca/pomocnik: Ludwik \"offchuck\" Rekowski" << endl;
+        _sleep(1500);
+        cout << "Wystepujacy:" << endl;
+        _sleep(1500);
+        cout << "Artey: Marcin Bartoszek" << endl;
+        _sleep(1500);
+        cout << "Psycho: Dawid Jasinski" << endl;
+        _sleep(1500);
+        cout << "Grindor: Damian Antkowiak" << endl;
+        _sleep(1500);
+        cout << "FeloS: Kacper Szatan" << endl;
+        _sleep(1500);
+        cout << "Onid: Konrad Filipowski" << endl;
+        _sleep(1500);
+        cout << "!-----------------*Nacisnij dowolny klawisz, aby zakonczyc*-----------------!";
+        getch();
         return 0;
     }
 
