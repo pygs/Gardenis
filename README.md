@@ -38,3 +38,4 @@ v0.3 http://www.mediafire.com/file/mdr11u6cpcrqywq/Gardenis.exe
 - New stuff:
 * Wiktoria Gałdusińska as Godi - The Princess
 * Krzysiek Kropniewiecki as KrzysieQ - The Prince
+* Krystian Leśniak as GeZeT - Squaire of Artey
