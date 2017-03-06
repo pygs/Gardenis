@@ -34,7 +34,7 @@ int main()
         getch();
         cout << "Ty: Kto?" << endl;
         getch();
-        cout << "???: Gobliny." << endl;
+        cout << "???: Papiezaki." << endl;
         getch();
         cout << "???: Lepiej sie pospiesz. Przy okazji, nazywam sie Artey. A Ty?" << endl;
         char name[50];
@@ -52,7 +52,7 @@ int main()
         getch();
         system("cls");
         int opcjePodrozy;
-        cout << "# Po jakims czasie zostajecie otoczeni przez goblinich rycerzy." << endl;
+        cout << "# Po jakims czasie zostajecie otoczeni przez papieskich rycerzy." << endl;
         getch();
         cout << "# I tutaj stajesz przed wyborem." << endl;
         getch();
@@ -63,7 +63,7 @@ int main()
         Podroz:
         cout << "\t >> 1. Ucieknij wraz z Arteyem" << endl;
         _sleep(500);
-        cout << "\t >> 2. Pozbadz sie goblinow" << endl;
+        cout << "\t >> 2. Pozbadz sie papiezakow" << endl;
         _sleep(500);
         cout << "Wprowadz swoj wybor: ";
         cin >> opcjePodrozy;
@@ -109,7 +109,7 @@ int main()
         getch();
         cout << "# Wyciagasz swoj miecz." << endl;
         getch();
-        cout << "# Jeden goblin zaatakowal Cie z ukrycia przez co zostales ranny." << endl;
+        cout << "# Jeden papiezak zaatakowal Cie z ukrycia przez co zostales ranny." << endl;
         getch();
         cout << "# Gdy bylo po wszystkim, Artey wzial Cie do medyka." << endl;
         getch();
@@ -232,7 +232,7 @@ int main()
             if (takNie==1)
             {   cout << name << ": Tak. To moja ostateczna dezycja." << endl;
                 getch();
-                cout << "Grindor: Doskonaly wybor. Czlowiek ktory potrafi poradzic sobie sam z goblinami" << endl;
+                cout << "Grindor: Doskonaly wybor. Czlowiek ktory potrafi poradzic sobie sam z papiezakami" << endl;
                 cout << "na pewno nam sie przyda!" << endl;
                 getch();
                 cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
@@ -402,7 +402,7 @@ int main()
             getch();
             cout << "*Trzeci najazd? O panie...*" << endl;
             getch();
-            cout << name << ": Czesto gobliny najedzaja na zamek?" << endl;
+            cout << name << ": Czesto papiezaki najedzaja na zamek?" << endl;
             getch();
             cout << "Psycho: Co jakis czas." << endl;
             getch();
@@ -413,7 +413,7 @@ int main()
         {
             cout << "# Razem z Arteyem biegniecie do swojego pokoju i sie uzbrajacie." << endl;
             getch();
-            cout << name << ": Gobliny czesto atakuja ten zamek?" << endl;
+            cout << name << ": Papiezaki czesto atakuja ten zamek?" << endl;
             getch();
             cout << "Artey: Raz na jakis czas. Strat nie ma wiele. Paru rycerzy tylko." << endl;
             getch();
@@ -431,7 +431,7 @@ int main()
             getch();
             cout << name << "Wiec... Jaka jest taktyka?" << endl;
             getch();
-            cout << "Lucznik: Po prostu ostrzeliwujemy goblinich lucznikow." << endl;
+            cout << "Lucznik: Po prostu ostrzeliwujemy papieskich lucznikow." << endl;
             getch();
             cout << "*Wydaje sie to latwe, ale ciekawe jak z moim celem.*" << endl;
             getch();
@@ -445,7 +445,7 @@ int main()
         _sleep(2000);
         if (Profesja==1)
         {
-            cout << "# Po wyjsciu z koszarow zauwazyles cala armie goblinow." << endl;
+            cout << "# Po wyjsciu z koszarow zauwazyles cala armie papiezakow." << endl;
             getch();
             cout << "# Armia liczyla ponad 5000 potworow." << endl;
             getch();
@@ -466,7 +466,7 @@ int main()
             getch();
             cout << name << ": I co to da?" << endl;
             getch();
-            cout << "Psycho: Wtedy gobliny nie wiedza co robic bez rozkazow." << endl;
+            cout << "Psycho: Wtedy papiezaki nie wiedza co robic bez rozkazow." << endl;
             getch();
             cout << name << ": Brzmi logicznie." << endl;
             getch();
@@ -478,11 +478,11 @@ int main()
         {
             cout << name << ": No to co robimy?" << endl;
             getch();
-            cout << "Artey: Czekamy az gobliny zaatakuja piewsze." << endl;
+            cout << "Artey: Czekamy az papiezaki zaatakuja piewsze." << endl;
             getch();
             cout << name << ": Czemu nie zaatakujemy teraz?" << endl;
             getch();
-            cout << "Artey: Za duzo goblinow przy dowodcy. Musimy zaczekac." << endl;
+            cout << "Artey: Za duzo papiezakow przy dowodcy. Musimy zaczekac." << endl;
             getch();
             cout << "*Ehh...*" << endl;
             getch();
@@ -494,7 +494,7 @@ int main()
         {
             cout << name << ": Na co czekamy?" << endl;
             getch();
-            cout << "Lucznik: Na pierwszy ruch goblinow." << endl;
+            cout << "Lucznik: Na pierwszy ruch papiezakow." << endl;
             getch();
             cout << name << ": Nie mozemy sami zaatakowac pierwsi i miec to z glowy?" << endl;
             getch();
@@ -507,14 +507,14 @@ int main()
             getch();
             cout << name << ": Milo mi. Nazywam sie " << name << "." << endl;
             getch();
-            cout << "Onid: No dobra, lepiej sie tez przygotujmy po przeczuwam, ze gobliny zaczna" << endl;
+            cout << "Onid: No dobra, lepiej sie tez przygotujmy bo przeczuwam, ze papiezaki zaczna" << endl;
             cout << "atakowac." << endl;
             getch();
             cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
             getch();
             system("cls");
         }
-        cout << "# No i w koncu gobliny zrobily pierwszy krok." << endl;
+        cout << "# No i w koncu papiezaki zrobily pierwszy krok." << endl;
         getch();
         cout << "# Jezdzcy na rumakach popedzali jak piorun." << endl;
         getch();
