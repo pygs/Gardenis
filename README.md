@@ -32,3 +32,9 @@ v0.3 http://www.mediafire.com/file/mdr11u6cpcrqywq/Gardenis.exe
 
 ##### 0.32
 - Goblins changed to priests
+
+##### 0.33
+- Added credits
+- New stuff:
+* Wiktoria Gałdusińska as Godi - The Princess
+* Krzysiek Kropniewiecki as KrzysieQ - The Prince
