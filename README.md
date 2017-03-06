@@ -29,3 +29,6 @@ v0.3 http://www.mediafire.com/file/mdr11u6cpcrqywq/Gardenis.exe
 
 ##### 0.31
 - Episode 5 in progress
+
+##### 0.32
+- Goblins changed to priests
