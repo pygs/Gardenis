@@ -570,7 +570,7 @@ int main()
         _sleep(1500);
         cout << "Onid: Konrad Filipowski" << endl;
         _sleep(1500);
-        cout << "Elisabeth: Agata Podlewska" << endl;
+        cout << "Gezet: Krystial Lesniak" << endl;
         _sleep(1500);
         cout << "Godi: Wiktoria Galdusinska" << endl;
         _sleep(1500);
