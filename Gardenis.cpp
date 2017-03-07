@@ -570,11 +570,11 @@ int main()
         _sleep(1500);
         cout << "Onid: Konrad Filipowski" << endl;
         _sleep(1500);
-        cout << "GeZeT: Krystian Lesniak" << endl;
+        cout << "Gezet: Krystian Lesniak" << endl;
         _sleep(1500);
         cout << "Godi: Wiktoria Galdusinska" << endl;
         _sleep(1500);
-        cout << "KrzysieQ: Krzysiek Kropniewiecki" << endl;
+        cout << "KrzysieQ: Krzysiek Kropiewnicki" << endl;
         _sleep(2000);
         cout << "!-----------------*Nacisnij dowolny klawisz, aby zakonczyc*-----------------!";
         getch();
