@@ -385,7 +385,7 @@ int main()
         }
         cout << "# Wszyscy zgromadzili sie w komnacie krola." << endl;
         getch();
-        cout << "Grindor: Drodzy podwladni. Nasz zamek zostal zaatakowany przez armie goblinow." << endl;
+        cout << "Grindor: Drodzy podwladni. Nasz zamek zostal zaatakowany przez armie papiezakow." << endl;
         getch();
         cout << "Grindor: Prosze was, abyscie pomogli \"Gardenis\" i wszystkim tu zgromadzonym." << endl;
         getch();
