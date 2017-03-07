@@ -526,7 +526,6 @@ int main()
             getch();
             cout << "# Najtwardsi stawili sie na frontowej linii." << endl;
             getch();
-            cout <<
         }
         getch();
         system("cls");
