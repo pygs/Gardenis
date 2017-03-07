@@ -58,7 +58,7 @@ int main()
         getch();
         cout << "# Chcesz uciec wraz z Arteyem?" << endl;
         getch();
-        cout << "# Czy moze pozbyc sie goblinow i nie narazac zycia Arteya?" << endl;
+        cout << "# Czy moze pozbyc sie papiezakow i nie narazac zycia Arteya?" << endl;
         getch();
         Podroz:
         cout << "\t >> 1. Ucieknij wraz z Arteyem" << endl;
@@ -89,7 +89,7 @@ int main()
             {
             cout << "!!!----------Rozdzial 1: Walka----------!!!" << endl;
             _sleep(2000);
-            cout << "# Postanawiasz pozbyc sie goblinow." << endl;
+            cout << "# Postanawiasz pozbyc sie papiezakow." << endl;
             getch();
             cout << name << ": Artey, uciekaj! Dam sobie rade z nimi." << endl;
             getch();
