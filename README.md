@@ -10,3 +10,6 @@ v0.3 http://www.mediafire.com/file/mdr11u6cpcrqywq/Gardenis.exe
 - More episodes
 - English version
 - In the future, i want to do graphical version of Gardenis
+
+## Attetion
+Hey, i know that game is still at version 0.33, but i don't have time for doing this game. Even if I have free time I need to study. So I need to tell, that work on the game is paused. I'm sorry for that. I need more time and enthusiasm for doing Gardenis.
