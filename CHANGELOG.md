@@ -22,7 +22,7 @@
  - Goblins changed to priests
  
  ##### 0.33
- -Added credits
+ - Added credits
  - New stuff:
  * Wiktoria Gałdusińska as Godi - The Princess
  * Krzysiek Kropniewiecki as KrzysieQ - The Prince
