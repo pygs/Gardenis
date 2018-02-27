@@ -2,10 +2,15 @@
 #include <conio.h>
 #include <stdlib.h>
 #include <time.h>
-using namespace std;
+
+using std::cout;
+using std::cin;
+using std::endl;
+
 int main()
 {
     Menu:
+    system("cls");
     cout << "   ___              _            _     " << endl;
     _sleep(250);
     cout << "  / _ \\__ _ _ __ __| | ___ _ __ (_)___ " << endl;
@@ -19,7 +24,9 @@ int main()
     int Menu;
     cout << "\t \t1. Nowa gra" << endl;
     _sleep(250);
-    cout << "\t \t2. Wyjdz" << endl;
+    cout << "\t \t2. Tworcy" << endl;
+    _sleep(250);
+    cout << "\t \t3. Wyjdz" << endl;
     cin >> Menu;
     if (Menu==1)
     {
@@ -546,12 +553,22 @@ int main()
             getch();
             cout << "# Z latwoscia pozbyliscie sie najazdu." << endl;
             getch();
+            system("cls");
+            cout << "Ciąg dalszy nastąpi";
+            for(int i = 0; i<=2; i++)
+            {
+                cout << ".";
+                _sleep(500);
+            }
+            getch();
+            system("cls");
             cout << "!-----------------*Nacisnij dowolny klawisz, aby kontynuowac*-----------------!" << endl;
             getch();
             system("cls");
         }
         getch();
         system("cls");
+        Credits:
         cout << "Credits" << endl;
         _sleep(1500);
         cout << "Tworca: Jakub \"pygs\" Wasiniewski" << endl;
@@ -560,7 +577,7 @@ int main()
         _sleep(1500);
         cout << "Wystepujacy:" << endl;
         _sleep(1500);
-        cout << "Artey: Marcin Bartoszek" << endl;
+        cout << "Artey: Marcin Gosk" << endl;
         _sleep(1500);
         cout << "Psycho: Dawid Jasinski" << endl;
         _sleep(1500);
@@ -578,12 +595,17 @@ int main()
         _sleep(2000);
         cout << "!-----------------*Nacisnij dowolny klawisz, aby zakonczyc*-----------------!";
         getch();
-        return 0;
+        goto Menu;
     }
 
     else if (Menu==2)
     {
-        return 0;
+        system("cls");
+        goto Credits;
+    }
+    else if (Menu==3)
+    {
+        return 1;
     }
     else
     {
